@@ -44,8 +44,11 @@ This workshop introduces you to computational analysis of ancient DNA data. You'
 
 3. **Set up Python environment**
    ```bash
-   # Install required packages
-   pip install --user -r requirements.txt
+   # Show all available modules pre-installed on SCC
+   module avail
+
+   # Load SCC module for latest version of python
+   module load python/3.12.4
    ```
 
 ### Step 2: Data Acquisition
