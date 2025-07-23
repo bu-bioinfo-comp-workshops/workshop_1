@@ -1,0 +1,24 @@
+# Python dependencies for Workshop 1: Ancient DNA Analysis
+# Install with: pip install --user -r requirements.txt
+
+# Core scientific computing
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Bioinformatics (optional - for advanced users)
+# biopython>=1.79
+
+# Data visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Web requests for data download
+requests>=2.25.0
+urllib3>=1.26.0
+
+# File handling and utilities
+pathlib2>=2.3.0  # For Python < 3.4 compatibility (if needed)
+
+# Optional: Jupyter notebook support (if using notebooks)
+# jupyter>=1.0.0
+# ipython>=7.0.0
